@@ -1,7 +1,7 @@
 {
         "name": "goat-bot-v2",
         "version": "1.5.35",
-        "description": "A simple Bot chat messenger using personal account. Made by NTKhang.",
+        "description": "A simple Bot chat messenger using personal account. Made by NTKhang. Updated by Azadx69x",
         "main": "index.js",
         "engines": {
                 "node": "18.x",
@@ -9,6 +9,7 @@
         },
         "dependencies": {
                 "@distube/ytdl-core": "^4.13.3",
+                "@dongdev/fca-unofficial": "^1.0.0",
                 "axios": "^1.4.0",
                 "bcrypt": "^5.0.1",
                 "bluebird": "^3.7.2",
@@ -42,7 +43,6 @@
                 "passport": "^0.6.0",
                 "passport-local": "^1.0.0",
                 "path": "^0.12.7",
-                "ws3-fca": "^1.0.0",
                 "qrcode-reader": "^1.0.4",
                 "qs": "^6.11.0",
                 "request": "^2.88.2",
@@ -53,14 +53,15 @@
                 "string-similarity": "^4.0.4",
                 "tinyurl": "^1.1.7",
                 "totp-generator": "^0.0.13",
-                "websocket-stream": "^5.5.2"
+                "websocket-stream": "^5.5.2",
+                "ws3-fca": "^1.0.0"
         },
         "scripts": {
                 "start": "set NODE_ENV=&& node index.js",
                 "dev": "set NODE_ENV=development&& node index.js",
                 "prod": "set NODE_ENV=production&& node index.js"
         },
-        "author": "NTKhang",
+        "author": "NTKhang | Updated by AKASH",
         "license": "MIT",
         "repository": {
                 "type": "git",
